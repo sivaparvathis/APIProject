@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Jira_Api]">
+  <test thread-count="5" name="PositiveTest(failed)">
+    <classes>
+      <class name="com.atlassian.developer.JiraIssues.GetIssueApiTest">
+        <methods>
+          <include name="getIssuebyIdorKey" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.atlassian.developer.JiraIssues.GetIssueApiTest -->
+    </classes>
+  </test> <!-- PositiveTest(failed) -->
+</suite> <!-- Failed suite [Jira_Api] -->

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Jira_Api" verbose="1">
+	
+	<test name="PositiveTest">
+		<classes>
+		     <class name="com.atlassian.developer.base.CreateSessionId" />
+		     <class name="com.atlassian.developer.JiraIssues.CreateSessionTest" />
+			<class name="com.atlassian.developer.JiraIssues.IssueApiTest" />
+			<class name="com.atlassian.developer.JiraIssues.GetIssueApiTest" />
+		</classes>
+	</test>
+
+	
+</suite>
